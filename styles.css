@@ -45,7 +45,7 @@ body {
     width: 100%;
     justify-content: space-around;
     padding-block: 50px;
-    
+    gap: 10px;
 }
 
 .nav-li:hover {
@@ -161,6 +161,10 @@ footer a {
 
     #profile {
         right: 300px;
+    }
+
+    #navlinks {
+        gap: 20px;
     }
 
     .nav-li:last-child {
